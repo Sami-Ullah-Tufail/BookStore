@@ -29,7 +29,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
+<detail>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
@@ -38,13 +38,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Setup using React]**
+- **[Setup using React ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
