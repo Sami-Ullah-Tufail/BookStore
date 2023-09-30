@@ -1,21 +1,20 @@
-import {
-  createBrowserRouter, createRoutesFromElements, RouterProvider, Route,
-} from 'react-router-dom';
-import Books from './components/pages/books';
-import Categories from './components/pages/categories';
-import Nav from './components/pages/nav';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import './styles.css';
+import BookList from './components/BookList';
+import Categories from './components/Categories';
+import Navbar from './components/Navbar';
 
 function App() {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route element={<Nav />}>
-        <Route path="/" element={<Books />} />
+  return (
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<BookList />} />
         <Route path="/categories" element={<Categories />} />
-      </Route>,
-
-    ),
+      </Routes>
+    </div>
   );
-  return <RouterProvider router={router} />;
 }
 
 export default App;
