@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 const Book = (props) => {
   const { title, author } = props;
   return (
-    <li>
-      <p>{title}</p>
-      <p>{author}</p>
-    </li>
+    <div>
+      <li>
+        <p>{title}</p>
+        <p>{author}</p>
+      </li>
+      <button type="button">delete</button>
+    </div>
   );
 };
 
