@@ -3,14 +3,14 @@ import {
   createBrowserRouter, createRoutesFromElements, Route, RouterProvider,
 } from 'react-router-dom';
 import './styles.css';
-import BookList from './components/BookList';
+import Book from './components/Book';
 import Categories from './components/Categories';
 import Navbar from './components/Navbar';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Navbar />}>
-      <Route path="/" element={<BookList />} />
+      <Route path="/" element={<Book />} />
       <Route path="/categories" element={<Categories />} />
     </Route>,
   ),

@@ -1,7 +1,7 @@
 import React from 'react';
 import AddBook from './AddBook';
 
-const BookList = () => {
+const Book = () => {
   const books = [
     { title: '1000 Spatans', author: 'Romans', id: 1 },
     { title: '2000 Spatans', author: 'Romans', id: 2 },
@@ -26,4 +26,4 @@ const BookList = () => {
   );
 };
 
-export default BookList;
+export default Book;
