@@ -29,7 +29,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
+<detail>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
