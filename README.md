@@ -36,7 +36,7 @@
   </ul>
 </details>
 
-### Key Features <a name="key-features"></a>
+### Key Feature <a name="key-features"></a>
 
 - **[Setup using React ]**
 
