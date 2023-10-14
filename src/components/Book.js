@@ -18,7 +18,7 @@ export default function Book() {
           <ul className="booklists" key={book.title}>
             <li className="lists">{book.title}</li>
             <li className="lists">{book.author}</li>
-            <button type="button" className="remove-btn" onClick={() => handleclick(book.id)}>Delete</button>
+            <button type="button" className="remove-btn" onClick={() => handleclick(book.item_id)}>Delete</button>
           </ul>
         ))}
       </div>
