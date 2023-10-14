@@ -1,29 +1,22 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   createBrowserRouter, createRoutesFromElements, Route, RouterProvider,
 } from 'react-router-dom';
-import './styles.css';
-import { useDispatch } from 'react-redux';
-import Book from './components/Book';
+import './App.css';
 import Categories from './components/Categories';
+import Home from './components/home';
 import Navbar from './components/Navbar';
-import { fetchBooksAsync } from './redux/books/booksSlice';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Navbar />}>
-      <Route path="/" element={<Book />} />
+      <Route path="/" element={<Home />} />
       <Route path="/categories" element={<Categories />} />
     </Route>,
   ),
 );
 
 function App() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchBooksAsync());
-  }, [dispatch]);
   return <RouterProvider router={router} />;
 }
 

@@ -87,7 +87,7 @@ To run the project, execute the following command:
 
 👤 **Sami Ullah**
 
-- GitHub: [@githubhandle](https://github.com/Sami-Ullah-Tufail)
+- GitHub: [@githubhandle](https://github.com/Sami-Ullah-Tufail)s
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Sami-Ullah)
 
 ## 🔭 Future Features <a name="future-features"></a>
