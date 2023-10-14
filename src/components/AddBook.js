@@ -10,6 +10,8 @@ export default function AddBook() {
     dispatch(booksAdded({ item_id: Math.random(), title: name, author }));
     setName('');
     setAuthor('');
+    // // URL of the endpoint
+    // const apiUrl = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/S46OSu1uByihcmzvGuxl/books';
   };
 
   return (
