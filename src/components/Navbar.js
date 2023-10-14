@@ -6,7 +6,7 @@ const Navbar = () => (
     <nav className="nav-container">
       <h1 className="header">Bookstore CMS</h1>
       <ul className="nav-links">
-        <NavLink className="word" to="/">BOOKS</NavLink>
+        <NavLink className="first" to="/">BOOKS</NavLink>
         <NavLink to="/categories">CATEGORIES</NavLink>
       </ul>
       <div className="user-profile"><i className="fa-solid fa-user user-icon" /></div>
