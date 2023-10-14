@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { booksAdded } from '../redux/books/booksSlice';
+import { addBookAsync, fetchBooksAsync } from '../redux/books/booksSlice';
 
 export default function AddBook() {
   const [name, setName] = useState('');
   const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
   const handleclick = () => {
-    dispatch(booksAdded({ item_id: Math.random(), title: name, author }));
+    dispatch(addBookAsync({
+      item_id: Math.random(), title: name, author, category: (''),
+    }));
     setName('');
     setAuthor('');
+    fetchBooksAsync();
   };
 
   return (
