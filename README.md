@@ -11,14 +11,12 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#deployments)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 [BookStore] <a name="about-project"></a>
@@ -90,7 +88,6 @@ To run the project, execute the following command:
 👤 **Sami Ullah**
 
 - GitHub: [@githubhandle](https://github.com/Sami-Ullah-Tufail)
-- Twitter: [@twitterhandle](https://twitter.com/tSami-ulllah)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Sami-Ullah)
 
 ## 🔭 Future Features <a name="future-features"></a>

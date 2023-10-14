@@ -7,7 +7,7 @@ export default function AddBook() {
   const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
   const handleclick = () => {
-    dispatch(booksAdded({ id: Math.random(), title: name, author }));
+    dispatch(booksAdded({ item_id: Math.random(), title: name, author }));
     setName('');
     setAuthor('');
   };
